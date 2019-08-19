@@ -29,7 +29,7 @@ class App extends Component {
           data['id'] = _doc.id;
           return data;
         });
-        this.setState({ notes: notes})
+        this.setState({ notes: note})
       });
   }
 }
