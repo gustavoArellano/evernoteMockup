@@ -23,12 +23,13 @@ class App extends Component {
     firebase
       .firestore()
       .collection('notes')
-      .onSnapshote(serverUpdate => {
+      .onSnapshot(serverUpdate => {
         const notes = serverUpdate.docs.map(_doc => {
           const data = _doc.data();
           data['id'] = _doc.id;
           return data;
         });
+        console.log(notes)
         this.setState({ notes: notes})
       });
   }
