@@ -10,7 +10,7 @@ require('firebase/firestore');
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyD4Fggr3Vujt-lroJ0gmVtRwe20p6xlerY",
+    apiKey: "",
     authDomain: "evernote-mockup.firebaseapp.com",
     databaseURL: "https://evernote-mockup.firebaseio.com",
     projectId: "evernote-mockup",
