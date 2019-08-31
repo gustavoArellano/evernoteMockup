@@ -33,4 +33,4 @@ const styles = theme => ({
     }
   });
   
-  export default style;
+  export default styles;
