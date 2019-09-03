@@ -36,9 +36,9 @@ class SidebarComponent extends Component {
                        notes.map((_note, _index) => {
                            return (
                                <div key={_index}>
-                                   <SidebarItemComponent _note={_note} _index={_index} selectedNoteIndex={selectedNoteIndex} selectNote={this.selectNote}>
-                                       
+                                   <SidebarItemComponent _note={_note} _index={_index} selectedNoteIndex={selectedNoteIndex} selectNote={this.selectNote} deleteNote={this.deleteNote}>
                                    </SidebarItemComponent>
+                                   <Divider></Divider>
                                </div>
                            )
                        })
