@@ -38,7 +38,7 @@ class SidebarComponent extends Component {
                                <div key={_index}>
                                    <SidebarItemComponent _note={_note} _index={_index} selectedNoteIndex={selectedNoteIndex} selectNote={this.selectNote} deleteNote={this.deleteNote}>
                                    </SidebarItemComponent>
-                                   <Divider></Divider>
+                                   <Divider>
                                </div>
                            )
                        })
